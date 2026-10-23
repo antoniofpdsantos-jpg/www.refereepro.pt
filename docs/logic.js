@@ -6,7 +6,7 @@
   const FORMATS=[5,7,9,11];
   const KITS=['Branco','Vermelho','Azul claro','Azul escuro','Verde','Verde escuro','Amarelo','Laranja','Roxo','Rosa','Bordô','Cinzento','Preto','Turquesa','Castanho','Azul cinzento'];
   const KIT_HEX=['#ffffff','#e53d45','#347ef5','#164a9a','#15a05c','#0b6c49','#ffc400','#ff7f21','#9b43cf','#ee489b','#802226','#888992','#222222','#15b6ae','#70482f','#707c91'];
-  const DEFAULT={category:'Juvenis',maxStarters:11,minutesPerHalf:40,regulation:REGULATIONS[0],home:'LOCAL',away:'VISITANTE',homeKit:1,awayKit:2,homeStarters:'',awayStarters:'',homeBench:'',awayBench:''};
+  const DEFAULT={category:'Juvenis',maxStarters:11,minutesPerHalf:45,regulation:REGULATIONS[0],home:'LOCAL',away:'VISITANTE',homeKit:1,awayKit:2,homeStarters:'',awayStarters:'',homeBench:'',awayBench:''};
   const defaultMinutes=cat=>({Petizes:20,Traquinas:20,Benjamins:30,Infantis:30,Iniciados:35,Juvenis:40}[cat]??45);
   function parseNumbers(value){
     const clean=[];
