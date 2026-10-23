@@ -65,6 +65,6 @@
   }}catch(e){show(e.message,true)}});
   function connectivity(){document.getElementById('connectivity').textContent=navigator.onLine?'PRONTO':'OFFLINE'}
   window.addEventListener('online',connectivity);window.addEventListener('offline',connectivity);connectivity();
-  if('serviceWorker'in navigator&&(location.protocol==='https:'||['localhost','127.0.0.1'].includes(location.hostname)))navigator.serviceWorker.register('./sw.js').catch(()=>{});
+  if('serviceWorker'in navigator&&(location.protocol==='https:'||['localhost','127.0.0.1'].includes(location.hostname)))navigator.serviceWorker.register('./sw.js?v=6').catch(()=>{});
   render();
 })();
