@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#08110e">
+  <meta name="description" content="Referee Pro: prepara jogos, sincroniza com o relógio e guarda relatórios PDF.">
+  <meta name="referrer" content="no-referrer">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Referee Pro">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-180.png">
+  <link rel="icon" href="./icons/icon-192.png" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Referee Pro — iPhone</title>
+</head>
+<body>
+  <div class="shell">
+    <header class="header"><div class="brand-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#35db82" d="M6 5h36v9l-5 12c-3 9-8 14-13 17C15 38 11 30 10 21L6 14z"/><path fill="#07180f" d="M14 13h7l4 10 4-10h6L25 34z"/></svg></div>
+    <div><div class="brand">REFEREE <span>PRO</span></div><p class="eyebrow">PREPARAÇÃO DE JOGOS · IPHONE</p></div><span class="offline-flag" id="connectivity">LOCAL</span></header>
+    <nav class="tabs" role="tablist" aria-label="Secções">
+      <button data-tab="Jogo" role="tab">Jogo</button>
+      <button data-tab="Equipas" role="tab">Equipas</button>
+      <button data-tab="Jogadores" role="tab">Jogadores</button>
+      <button data-tab="Ligação" role="tab">Ligação</button>
+      <button data-tab="Relatório" role="tab">Relatório</button>
+    </nav>
+    <main id="app" class="content" tabindex="-1"></main>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <footer class="footer">Referee Pro · Dados guardados neste iPhone</footer>
+  </div>
+  <script src="./logic.js" defer></script>
+  <script src="./pdf.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Referee Pro — Arbitragem",
+  "short_name": "Referee Pro",
+  "description": "Preparação e relatório de jogos de futebol, com sincronização local para Wear OS.",
+  "lang": "pt-PT",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08100d",
+  "theme_color": "#08100d",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
